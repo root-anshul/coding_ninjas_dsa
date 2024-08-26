@@ -1,12 +1,11 @@
-package CN_week_14_Trees;
+package CN_week_14_trees;
 
-public class BinaryTreeNode<T>{
-
-	public T data;
-	public BinaryTreeNode<T>left;
-	public BinaryTreeNode<T>right;
+public class BinaryTreeNode<T> {
+	T data;
+	BinaryTreeNode<T> left;
+	BinaryTreeNode<T> right;
 	
-	public BinaryTreeNode(T data){
-		this.data=data;
+	BinaryTreeNode(T data) {
+		this.data= data;
 	}
 }
